@@ -4,7 +4,7 @@ DOCKERIZING A BACKEND APPLICATION: NODEJS WITH EXPRESS BACKEND - WITH A POSTGRES
 
 - create a folder with the name of your project
 - open it in vscode
-- - run - npm init -y
+- - run -( npm init -y )-
 
 2 - Start Docker Deamon
 
@@ -13,16 +13,16 @@ DOCKERIZING A BACKEND APPLICATION: NODEJS WITH EXPRESS BACKEND - WITH A POSTGRES
 
 3 - Install Express and Postgres
 
-- - run - npm install express pg
+- - run -( npm install express pg )-
   - this will add express and postgres packages to package.json dependencies object
 
 4 - Add dev script to package.json
 
-- - add - "dev": "node server.js"
+- - add -( "dev": "node server.js" )-
   - this command will run our server
-- - add - db.js file to your project
-- - add - server.js file to your project
-- - add - test.rest file to your project
+- - add -( db.js )- file to your project
+- - add -( server.js )- file to your project
+- - add -( test.rest )- file to your project
 
 5 - Setup the db.js file
 
@@ -35,11 +35,11 @@ DOCKERIZING A BACKEND APPLICATION: NODEJS WITH EXPRESS BACKEND - WITH A POSTGRES
 - here we basically setup our express details - for node
 - we connect it to the database
 
-7 - Setup the test.rest file
+7 - Setup the -( test.rest )- file
 
 - this is just like Postman inside vscode
 
-* - add "rest client" to your vscode extensions
+* - add -( "rest client" )- to your vscode extensions
   - see code inside this file
   - whenever your write a new request in your test.rest file, restart the server
 
