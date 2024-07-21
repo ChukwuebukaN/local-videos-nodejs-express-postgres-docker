@@ -1,0 +1,12 @@
+version: "3"
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: localvideos
+      POSTGRES_PASSWORD: localvideos
+      POSTGRES_DB: localvideos-database
+  app:
+    image: localvideos-app
+    ports:
+      - 13000:3000
